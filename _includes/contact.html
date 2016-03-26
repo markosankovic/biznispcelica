@@ -1,0 +1,43 @@
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Kontaktirajte nas<br/><small>+381 63 382 937 | +49 7721 204 93 13</small></h2>
+        <h3 class="section-subheading text-muted">Odgovaramo na poruku u roku od jednog radnog dana.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form name="sentMessage" id="contactForm" novalidate action="https://getsimpleform.com/messages?form_api_token=efcacb7ec51952d0f2b8515a79d22623" method="post">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" name="Ime" class="form-control" placeholder="Vaše ime *" id="name" required="required" data-validation-required-message="Unesite Vaše ime.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input type="email" name="Email" class="form-control" placeholder="Vaša email adresa *" id="email" required data-validation-required-message="Unesite Vašu email adresu." data-validation-email-message="Email adresa je neispravna.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input type="tel" name="Telefon" class="form-control" placeholder="Vaš broj telefona *" id="phone" required data-validation-required-message="Unesite Vaš broj telefona.">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea name="Poruka" class="form-control" placeholder="Vaša poruka *" id="message" required data-validation-required-message="Unesite poruku."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-xl">Pošalji poruku</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
